@@ -42,79 +42,79 @@ interface Term {
 const terms: Term[] = [
   {
     term: "Alzheimer's Disease",
-    definition: "a progressive brain disorder that slowly destroys memory and thinking skills, eventually leading to the inability to perform daily tasks."
+    definition: "A progressive brain disorder that slowly destroys memory and thinking skills, eventually leading to the inability to perform daily tasks."
   },
   {
     term: "Pathology-Enhanced",
-    definition: "a training strategy where the AI model is taught using synthetic medical images in which diseased areas are intentionally emphasized"
+    definition: "A training strategy where the AI model is taught using synthetic medical images in which diseased areas are intentionally emphasized."
   },
   {
     term: "Pulse Sequence Invariance",
-    definition: "a consistent and reliable analysis of brain MRI scans, even when those scans have been acquired using different machine settings (e.g. T1-weighted vs T2-weighted vs FLAIR)."
+    definition: "A consistent and reliable analysis of brain MRI scans, even when those scans have been acquired using different machine settings (e.g. T1-weighted vs T2-weighted vs FLAIR)."
   },
   {
     term: "beta-amyloid plaques",
-    definition: "abnormal clumps of beta-amyloid protein that build up in the spaces between neurons in the brain, a key pathological hallmark of Alzheimer's disease."
+    definition: "An abnormal clumps of beta-amyloid protein that build up in the spaces between neurons in the brain, a key pathological hallmark of Alzheimer's disease."
   },
   {
     term: "Neurofibrillary tangles",
-    definition: "intracellular, abnormal protein clumps, primarily of hyperphosphorylated tau protein, that disrupt neuron function"
+    definition: "An intracellular, abnormal protein clumps, primarily of hyperphosphorylated tau protein, that disrupt neuron function."
   },
   {
     term: "Hippocampal Atrophy",
-    definition: "the shrinkage of the hippocampus, a brain region vital for memory"
+    definition: "The shrinkage of the hippocampus, a brain region vital for memory."
   },
   {
     term: "Posterior Cingulate Cortex Atrophy",
-    definition: "the shrinkage of the posterior cingulate cortex, a brain region crucial for visual processing and memory"
+    definition: "The shrinkage of the posterior cingulate cortex, a brain region crucial for visual processing and memory."
   },
   {
     term: "Domain Shift Problem",
-    definition: "when a model trained on data from a source domain performs poorly on a different but related target domain because their underlying data distributions differ."
+    definition: "When a model trained on data from a source domain performs poorly on a different but related target domain because their underlying data distributions differ."
   },
   {
     term: "Feature representation learning",
-    definition: "a machine learning process where a system automatically discovers and learns effective ways to transform raw data into a more useful format (a representation) for a specific task"
+    definition: "A machine learning process where a system automatically discovers and learns effective ways to transform raw data into a more useful format (a representation) for a specific task."
   },
   {
     term: "Anomaly probability maps",
-    definition: "visual representations that indicate the likelihood of an anomaly or pathology at each point in an image."
+    definition: "Visual representations that indicate the likelihood of an anomaly or pathology at each point in an image."
   },
   {
     term: "MP-RAGE",
-    definition: " Magnetization-Prepared RApid Gradient Echo, a widely used 3D T1-weighted magnetic resonance imaging (MRI) technique known for producing high-resolution brain images quickly and with good tissue contrast."
+    definition: "Magnetization-Prepared RApid Gradient Echo, a widely used 3D T1-weighted magnetic resonance imaging (MRI) technique known for producing high-resolution brain images quickly and with good tissue contrast."
   },
   {
-    term: "T1-weighted",
-    definition: "produces images where fat appears bright and water-based tissues appear dark"
+    term: "T1-weighted image",
+    definition: "An MRI image where fat appears bright and tissues with high water content, like cerebrospinal fluid (CSF) and edema, appear dark."
   },
   {
-    term: "T2-weighted",
-    definition: "highlights tissues with high water content, causing fluids, edema, and many pathologies to appear bright, while fat appears bright and muscle appears gray"
+    term: "T2-weighted image",
+    definition: "A type of magnetic resonance imaging (MRI) that highlights tissues with high water content, making fluids, edema, and many pathologies appear bright (hyperintense)."
   },
   {
     term: "FLAIR",
-    definition: "an advanced MRI sequence that suppresses the signal from cerebrospinal fluid (CSF) to better highlight abnormalities in the brain and spinal cord."
+    definition: "An advanced MRI sequence that suppresses the signal from cerebrospinal fluid (CSF) to better highlight abnormalities in the brain and spinal cord."
   },
   {
     term: "Image Registration",
-    definition: "the process of spatially aligning two or more images of the same scene, taken at different times, viewpoints, or using different sensors, to a common coordinate system."
+    definition: "The process of spatially aligning two or more images of the same scene, taken at different times, viewpoints, or using different sensors, to a common coordinate system."
   },
   {
     term: "Intensity normalization",
-    definition: "a preprocessing technique used to standardize image intensity values"
+    definition: "A preprocessing technique used to standardize image intensity values."
   },
   {
     term: "Histogram Matching",
-    definition: "an image processing technique that transforms an image's pixel intensity distribution (its histogram) to resemble that of a reference image or a specified target histogram."
+    definition: "An image processing technique that transforms an image's pixel intensity distribution (its histogram) to resemble that of a reference image or a specified target histogram."
   },
   {
     term: "Quantitative MRI",
-    definition: "a technique that measures specific, objective physical properties of tissues"
+    definition: "A technique that measures specific, objective physical properties of tissues."
   },
   {
     term: "Decoupling leakage",
-    definition: "a flaw in an AI model where information about the brain's normal structure (anatomy) incorrectly influences or leaks into its identification of diseased tissue (pathology), and vice versa."
+    definition: "A flaw in an AI model where information about the brain's normal structure (anatomy) incorrectly influences or leaks into its identification of diseased tissue (pathology), and vice versa."
   }
 ];
 
