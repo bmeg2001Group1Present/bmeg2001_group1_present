@@ -115,6 +115,10 @@ const terms: Term[] = [
   {
     term: "Decoupling leakage",
     definition: "A flaw in an AI model where information about the brain's normal structure (anatomy) incorrectly influences or leaks into its identification of diseased tissue (pathology), and vice versa."
+  },
+  {
+    term: "CycleGAN",
+    definition: "An approach to training a deep convolutional neural network for image-to-image translation tasks."
   }
 ];
 
